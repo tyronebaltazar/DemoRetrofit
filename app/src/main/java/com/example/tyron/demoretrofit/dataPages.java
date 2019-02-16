@@ -1,15 +1,11 @@
 package com.example.tyron.demoretrofit;
 
-import com.google.gson.annotations.SerializedName;
-
 /**
  * Created by tyron on 15/02/2019.
  */
 
 public class dataPages {
     private int id;
-
-    @SerializedName("first_name")
     private String primerNombre;
     private String last_name;
     private String avatar;
